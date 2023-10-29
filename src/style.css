@@ -1,0 +1,96 @@
+h1 {
+  font-size: 60px;
+  padding: 25px 0;
+}
+h2 {
+  font-size: 38px;
+  font-weight: bolder;
+}
+h3 {
+  position: relative;
+  right: 10px;
+}
+h4 {
+  text-align: right;
+}
+.weather {
+  border: 3px solid #dee2e6;
+  padding: 30px 40px;
+  margin-top: 20px;
+}
+.temperature {
+  text-align: right;
+  margin-top: 10px;
+}
+.date {
+  font-size: 17px;
+  padding: 10px;
+}
+
+.first-t {
+  font-size: 38px;
+  position: relative;
+  left: 110px;
+  top: -90px;
+  line-height: 40px;
+}
+a {
+  text-decoration: none;
+}
+
+.bottom {
+  font-size: 16px;
+  margin-top: 38px;
+}
+img {
+  max-width: 100px;
+  margin-top: 25px;
+}
+.sun-one {
+  font-size: 60px;
+  position: relative;
+  top: 23px;
+  left: -30px;
+}
+.sun-two {
+  font-size: 53px;
+  position: relative;
+  top: 23px;
+  left: -30px;
+}
+.sun-three {
+  font-size: 53px;
+  position: relative;
+  top: 23px;
+  left: -30px;
+}
+.first-cloud {
+  font-size: 53px;
+  position: relative;
+  top: 23px;
+  left: -30px;
+}
+#description {
+  font-size: 30px;
+  padding: 10px 0;
+  padding-right: 20px;
+  line-height: 28px;
+}
+
+input {
+  position: relative;
+  left: 885px;
+  top: 50px;
+}
+button {
+  position: relative;
+  top: 50px;
+  left: 890px;
+}
+ul {
+  list-style: none;
+  font-size: 20px;
+  margin-top: 10px;
+  position: relative;
+  padding-left: 5px;
+}

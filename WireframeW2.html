@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7ea26d2eba.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather">
+        <div class="row">
+          <div class="col-6 p-3">
+            <form id="search-input">
+              <input
+                type="search"
+                placeholder="  Enter town or city "
+                autocomplete="off"
+                id="show-input"
+              />
+              <input type="submit" class="btn btn-primary p-1" value="Search" />
+              <button type="button" class="btn btn-success p-1">Current</button>
+            </form>
+          </div>
+        </div>
+
+        <h1 id="city">London</h1>
+        <h2>Monday</h2>
+        <div class="row">
+          <div
+            class="card border border-black border-5 p-3"
+            style="width: 17rem"
+          >
+            <h3 class="card-title">Today's Weather</h3>
+            <img
+              src="img/cloud-rain.svg"
+              class="card-img-top"
+              alt="cloud with raindrops"
+              class="card-body"
+            />
+            <span class="first-t">
+              <strong id="temperature-high">22</strong>ºC<br /><strong
+                id="temperature-low"
+                >12</strong
+              >º</span
+            >
+            <p id="description">Light rain and moderate breeze</p>
+          </div>
+
+          <div class="col-2">
+            <h4 class="border border-4 p-4 mt-4 rounded-circle">
+              Wed <span class="date"> 15/8</span>
+              <p class="temperature">
+                <i class="fa-solid fa-sun sun-one" style="color: #e8c35e"></i
+                ><strong>23º</strong> <br />13º
+              </p>
+            </h4>
+          </div>
+          <div class="col-2">
+            <h4 class="border border-4 p-4 mt-4 rounded-circle">
+              Thur <span class="date">16/8</span>
+              <p class="temperature">
+                <i class="fa-solid fa-sun sun-two" style="color: #e8c35e"></i
+                ><strong>24º</strong><br />13º
+              </p>
+            </h4>
+          </div>
+          <div class="col-2">
+            <h4 class="border border-4 p-4 mt-4 rounded-circle">
+              Fri <span class="date">17/8</span>
+              <p class="temperature">
+                <i class="fa-solid fa-sun sun-three" style="color: #e8c35e"></i
+                ><strong>24º</strong><br />15º
+              </p>
+            </h4>
+          </div>
+          <div class="col-2">
+            <h4 class="border border-4 p-4 mt-4 rounded-circle">
+              Sat
+              <span class="date">18/8</span>
+              <p class="temperature">
+                <i
+                  class="fa-solid fa-cloud-rain first-cloud"
+                  style="color: #6881ac"
+                ></i
+                ><strong>25º</strong><br />17º
+              </p>
+            </h4>
+          </div>
+          <footer class="bottom">
+            <ul>
+              <li>Humidity:<span id="humidity"> 74</span>%</li>
+              <li>Wind: <span id="wind">5 </span>mph</li>
+            </ul>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
